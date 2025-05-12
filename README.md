@@ -1,5 +1,7 @@
 # gentoo-install
 ## DON'T USE THIS BASH SCRIPTS, THAT'S FOR SPECIALLY CONFIGURATION
+<code> ./ginstall </code> -> Activate all scripts
+
 <code>./gnet.sh
 ./gmkfs.sh
 ./gmount.sh
