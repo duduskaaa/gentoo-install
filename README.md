@@ -1,7 +1,6 @@
 # gentoo-install
 ## DON'T USE THIS BASH SCRIPTS, THAT'S FOR SPECIALLY CONFIGURATION
-<code>
-./gnet.sh
+<code>./gnet.sh
 ./gmkfs.sh
 ./gmount.sh
 ./gstage.sh 
