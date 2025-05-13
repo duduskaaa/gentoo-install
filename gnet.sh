@@ -1,5 +1,7 @@
 #!/bin/bash
 
 set -e
-wpa_supplicant -B -i "DEVICE" -c <(wpa_passphrase "12123456" "12345699")
-dhcpcd "DEVICE"
+
+echo "[+] CONNECT TO WIFI"
+echo 'wpa_supplicant -B -i "DEVICE" -c <(wpa_passphrase "ID" "PASSWORD")'
+eho 'dhcpcd "DEVICE"'
