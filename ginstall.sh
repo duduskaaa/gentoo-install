@@ -5,6 +5,7 @@ set -e
 ./gmkfs.sh
 ./gmount.sh
 ./gstage.sh 
+#.gmakeconf -> After chroot again?
 ./gchroot.sh
 ./gmakeconf.sh
 ./gworld.sh
