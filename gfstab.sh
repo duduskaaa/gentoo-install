@@ -2,7 +2,7 @@
 
 set -e
 
-echo "[+] FILL /etc/fstab WITH A UUID"
+echo "[+] FILL -> /etc/fstab WITH A UUID"
 cat <<EOF > /mnt/gentoo/etc/fstab
 # <fs>          			 	<mountpoint>  <type>  <opts>        <dump/pass>
 UUID=ED3C-1BE0    				/boot/efi     vfat    defaults,noatime  0 2
