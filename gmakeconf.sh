@@ -5,6 +5,7 @@ echo "IF YOU WANT TO CONFIGURE MANUALLY -> nano /mnt/gentoo/etc/portage/make.con
 
 conf=/mnt/gentoo/etc/portage/make.conf
 
+echo "[+] ADD MIRRORS -> PORTAGE FLAGS" 
 emerge --ask --verbose --oneshot app-portage/mirrorselect
 mirrorselect -D -s4 >> $conf
 
