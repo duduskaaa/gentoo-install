@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -e 
+set -euo pipefail
 
 echo "[+] INSTALL rEFInd (Bootloader)"
 emerge -av sys-boot/refind

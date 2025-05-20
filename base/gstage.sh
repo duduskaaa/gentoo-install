@@ -1,6 +1,7 @@
 #!/bin/bash
 
-set -e
+set -euo pipefail
+
 cd /mnt/gentoo
 
 echo "[+] INSTALL STAGE PACKAGE"

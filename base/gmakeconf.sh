@@ -1,6 +1,7 @@
 #!/bin/bash
 
-set -e
+set -euo pipefail
+
 echo "IF YOU WANT TO CONFIGURE MANUALLY -> nano /mnt/gentoo/etc/portage/make.conf"
 
 conf=/mnt/gentoo/etc/portage/make.conf

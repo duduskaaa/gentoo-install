@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -e
+set -euo pipefail
 
 echo "[+] ADD USER"
 useradd -m -G wheel -s /bin/bash khatep

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -e
+set -euo pipefail
 
 echo "[+] FILL -> /etc/fstab WITH A UUID"
 cat <<EOF > /mnt/gentoo/etc/fstab

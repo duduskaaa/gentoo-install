@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -e
+set -euo pipefail
 
 echo "[+] ADD TIMEZONE"
 ln -sf /usr/share/zoneinfo/Asia/Aqtobe /etc/localtime

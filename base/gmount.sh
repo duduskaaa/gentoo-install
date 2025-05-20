@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -e
+set -euo pipefail
 
 echo "[+] MAKE /MNT/GENTOO"
 mkdir -p /mnt/gentoo

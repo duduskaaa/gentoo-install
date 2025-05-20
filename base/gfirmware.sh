@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -e
+set -euo pipefail
 
 echo "[+] INSTALL LINUX FIRMWARE"
 emerge --ask sys-kernel/linux-firmware

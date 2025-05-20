@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -e
+set -euo pipefail
 
 echo "[+] INSTALL HYPRLAND & DEPENDENCIES"
 sudo emerge --ask \

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -e
+set -euo pipefail
 
 echo "[+] CONNECT TO WIFI"
 echo 'wpa_supplicant -B -i "DEVICE" -c <(wpa_passphrase "ID" "PASSWORD")'

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -e
+set -euo pipefail
 
 echo "[+] COPY /etc/resolv.conf -> /mnt/gentoo/etc/"
 cp --dereference /etc/resolv.conf /mnt/gentoo/etc/

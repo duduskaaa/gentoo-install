@@ -1,6 +1,7 @@
 #!/bin/bash
 
-set -e
+set -euo pipefail
+
 ./gnet.sh
 ./gmkfs.sh
 ./gmount.sh

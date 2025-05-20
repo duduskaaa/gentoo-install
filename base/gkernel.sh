@@ -1,5 +1,6 @@
 #!/bin/bash
-set -e
+
+set -euo pipefail
 
 echo "[+] INSTALLING ESELECT REPOSITORY"
 emerge --ask app-eselect/eselect-repository

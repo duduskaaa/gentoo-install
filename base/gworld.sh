@@ -1,6 +1,7 @@
 #!/bin/bash
 
-set -e
+set -euo pipefail
+
 echo "[+] UPDATE PORTAGE TREE"
 emerge --sync
 
