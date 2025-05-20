@@ -1,5 +1,7 @@
 # gentoo-install
 ## DON'T USE THIS BASH SCRIPTS, THAT'S FOR SPECIALLY CONFIGURATION
+
+## IN FUTURE -> SEMI-AUTOMATIC INSTALLATION OF THE GENTOO (wow, seriosly?)
 <code> ./ginstall </code> -> Activate all scripts
 
 <code>./gnet.sh
