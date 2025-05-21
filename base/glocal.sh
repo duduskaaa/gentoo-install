@@ -6,6 +6,6 @@ echo "[+] ADD TIMEZONE"
 ln -sf /usr/share/zoneinfo/Asia/Aqtobe /etc/localtime
 
 echo "[+] ADD & GENERATE LOCALES"
-nano /etc/locale.gen
+echo "ru_RU.UTF-8 UTF-8" >> /etc/locale.gen
 locale-gen
-echo "LANG=ru_RU.utf8" > /etc/locale.conf
+echo "LANG=ru_RU.UTF-8" > /etc/locale.conf

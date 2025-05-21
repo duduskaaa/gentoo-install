@@ -10,7 +10,7 @@ set -euo pipefail
 ./gchroot.sh
 ./gmakeconf.sh
 ./gworld.sh
-./gprofile
+./gprofile.sh
 ./glocal.sh
 ./guser.sh
 ./gfirmware.sh
