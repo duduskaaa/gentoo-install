@@ -1,0 +1,14 @@
+{
+  "layer": "top",
+  "position": "top",
+  "modules-center": ["custom/test"],
+
+  "custom/test": {
+    "format": "🖱 TEST",
+    "on-click": "notify-send 'LMB'",
+    "on-click-right": "notify-send 'RMB'",
+    "on-click-middle": "notify-send 'MMB'",
+    "tooltip": false,
+    "interval": 60
+  }
+}
